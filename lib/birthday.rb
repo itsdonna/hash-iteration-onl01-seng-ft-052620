@@ -12,6 +12,10 @@ end
 
 def age_appropriate_birthday(old)
   old.each do |kids_name, age|
-    if old < 27
+    if old < 1
+    puts "Sorry we are out of stock!"
+    else
+    puts "Thanks for your order!"
+  end
   
 end
